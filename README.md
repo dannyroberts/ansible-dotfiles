@@ -5,7 +5,7 @@ To "install" these dotfiles, in the home directory of your target user (on your 
 run
 
 ```bash
-git clone https://github.com/dannyroberts/ansible-dotfiles
+git clone https://github.com/dimagi/ansible-dotfiles
 ansible-dotfiles/install.sh
 ```
 
