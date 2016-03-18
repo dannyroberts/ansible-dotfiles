@@ -1,3 +1,3 @@
 #!/bin/bash
-
-< ansible-dotfiles/dotfiles xargs -n1 -I ln -s {} .
+repo=ansible-dotfiles
+< $repo/dotfiles xargs -n1 -I% ln -sf $repo/% .
