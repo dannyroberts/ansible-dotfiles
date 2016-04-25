@@ -1,5 +1,5 @@
-alias ap='ansible-playbook -u ansible -i ../../commcare-hq/fab/inventory/$ENV -e "@../config/$ENV/$ENV.yml" --ask-sudo-pass'
-alias aps='ansible-playbook -u ansible -i ../../commcare-hq/fab/inventory/$ENV deploy_stack.yml -e "@../config/$ENV/$ENV.yml" --ask-sudo-pass'
+alias ap='ansible-playbook -u ansible -i ../../commcare-hq/deployment/commcare-hq-deploy/fab/inventory/$ENV -e "@../config/$ENV/$ENV.yml" --ask-sudo-pass'
+alias aps='ansible-playbook -u ansible -i ../../commcare-hq/deployment/commcare-hq-deploy/fab/inventory/$ENV deploy_stack.yml -e "@../config/$ENV/$ENV.yml" --ask-sudo-pass'
 
 . virtualenvwrapper.sh
 
