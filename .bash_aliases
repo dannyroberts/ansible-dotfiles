@@ -17,8 +17,8 @@ function ansible-control-banner() {
     printf "${BLUE}update_code${NC} - update the ansible repositories (safely)\n"
     printf "${BLUE}workon ansible${NC} - activate the ansible virtual env\n"
     printf "${BLUE}ap${NC} - shortcut for ansible-playbook -u ansible -i ../../commcare-hq/fab/inventory/\$ENV -e \"@../config/\$ENV/\$ENV.yml\" --ask-sudo-pass\n"
-    printf "${BLUE}aps${NC} - same as ap deploy_stack.yml
-    printf "${BLUE}ansible-deploy-control${NC} - deploy changes to users on this control machine 
+    printf "${BLUE}aps${NC} - same as ap deploy_stack.yml"
+    printf "${BLUE}ansible-deploy-control${NC} - deploy changes to users on this control machine"
 
 }
 
