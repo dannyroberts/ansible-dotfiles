@@ -12,8 +12,6 @@ function ansible-control-banner() {
     printf "${BLUE}update_code${NC} - update the ansible repositories (safely)\n"
     printf "${BLUE}workon ansible${NC} - activate the ansible virtual env\n"
     printf "${BLUE}ap${NC} - useful alias for ansible-playbook -u ansible -i ../../commcare-hq/fab/inventory/\$ENV -e \"@../config/\$ENV/\$ENV.yml\" --ask-sudo-pass\n"
-
-    PS1=' \[\e[1;32m\](\u)\[\e[m\]\[\e[1;31m\]$(__git_ps1) \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\n\$\[\e[m\] \[\e[1;37m\]'
 }
 
 ansible-control-banner  
