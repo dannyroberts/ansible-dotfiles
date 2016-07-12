@@ -23,4 +23,4 @@ function ansible-control-banner() {
 
 ansible-control-banner  
 workon ansible
-cd ~/ansible/commcarehq-ansible/ansible
+cd ~/commcarehq-ansible/ansible
