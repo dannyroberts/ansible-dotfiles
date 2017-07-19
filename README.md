@@ -1,12 +1,3 @@
-# ansible-dotfiles
-bash aliases and other dotfiles for our ansible control machines
+DEPRECATED
 
-To "install" these dotfiles, in the home directory of your target user (on your target machine),
-run
-
-```bash
-git clone https://github.com/dimagi/ansible-dotfiles
-ansible-dotfiles/install.sh
-```
-
-This will symlink all managed dotfiles to their convential places in your home directory, and will **overwrite** any corresponding dotfiles.
+The same functionality is now handled by https://github.com/dimagi/commcarehq-ansible/blob/master/control/init.sh
